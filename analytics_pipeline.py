@@ -10,6 +10,7 @@ from utils.session_tracker import SessionTracker
 from utils.sentiment_analyzer import SentimentAnalyzer
 # Define the timezone for India
 INDIA_TZ = pytz.timezone('Asia/Kolkata')
+DEFAULT_TZ = pytz.timezone('Asia/Kolkata')
 class SessionAnalytics:
     def __init__(self, user_id, self_speaker_label, sentiment_analyzer):
         self.user_id = user_id
